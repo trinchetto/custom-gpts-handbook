@@ -135,7 +135,7 @@ Here’s a quick reference table of the main techniques covered in this handbook
 ## 🗂️ Prompt Patterns
 **Concept:** Prompt templates that capture best practices.
 
-For a full catalog of reusable prompt engineering patterns, check out the [Prompt Engineering Patterns Handbook](https://github.com/phodal/prompt-patterns).
+For a full catalog of reusable prompt engineering patterns, check out the [Prompt Engineering Patterns Handbook](https://github.com/trinchetto/prompt-engineering-patterns-handbook).
 
 [🔝 Back to Top](#-techniques-at-a-glance)
 
@@ -211,5 +211,3 @@ This handbook is a working reference. Use it to:
 - 🧪 Test thoroughly with benchmarks.
 
 With these techniques, you can confidently build Custom GPTs that are useful, safe, and aligned with your goals. 🚀
-
-- 📘 [Prompt Engineering Patterns Handbook](https://github.com/phodal/prompt-patterns)
