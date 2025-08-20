@@ -20,6 +20,7 @@ Here’s a quick reference table of the main techniques covered in this handbook
 | [🎛️ CAPITAL Framework](#-the-capital-framework) | Tone/style inconsistency | Adjust conversation style along seven dimensions |
 | [🎭 Building a Persona Pattern](#-building-a-persona-pattern) | Unfocused or inconsistent persona | Define a role + task for consistent behavior |
 | [🗂️ Prompt Patterns](#-prompt-patterns) | Repetitive prompt writing | Use reusable templates and best practices |
+| [🧠 Chain-of-Thought Prompting](#-chain-of-thought-prompting) | Needs deeper reasoning | Encourage step-by-step reasoning before answering |
 | [🧾 Format of the Persona Pattern](#-format-of-the-persona-pattern) | Ambiguous persona prompts | Standardize with “Act as X, Perform Y” format |
 | [🧪 Benchmarking & Testing](#-benchmarking--testing) | Inconsistent performance | Test with benchmark queries and evaluation rubrics |
 | [🔄 Continuous Learning](#-continuous-learning--staying-connected) | Outdated behavior | Update GPTs regularly with new data and practices |
@@ -136,6 +137,21 @@ Here’s a quick reference table of the main techniques covered in this handbook
 **Concept:** Prompt templates that capture best practices.
 
 For a full catalog of reusable prompt engineering patterns, check out the [Prompt Engineering Patterns Handbook](https://github.com/trinchetto/prompt-engineering-patterns-handbook).
+
+[🔝 Back to Top](#-techniques-at-a-glance)
+
+---
+
+## 🧠 Chain-of-Thought Prompting
+**Problem it Solves:** GPTs may jump to conclusions without showing their reasoning.
+
+**How it Works:** Instruct the model to think through problems step by step before giving a final answer.
+
+**When to Use:** Complex questions that benefit from transparent logic — math, planning, debugging, or multi-step analysis.
+
+**Examples:**
+- "Think step-by-step: if a train leaves at 3 PM and travels 60 mph..."
+- "Plan a project timeline. Show your reasoning before the schedule."
 
 [🔝 Back to Top](#-techniques-at-a-glance)
 
