@@ -196,7 +196,8 @@ For a full catalog of reusable prompt engineering patterns, check out the [Promp
 **Resources:**
 - 📘 [Prompt Engineering Paper](https://arxiv.org/abs/2302.11382)  
 - 📘 [Living Software Systems Paper](https://arxiv.org/pdf/2408.01768)  
-- 📘 [OpenAI Custom GPTs Course](https://www.coursera.org/learn/openai-custom-gpts)  
+- 📘 [OpenAI Custom GPTs Course](https://www.coursera.org/learn/openai-custom-gpts)
+- 📘 [Prompt Engineering Patterns Handbook](https://github.com/trinchetto/prompt-engineering-patterns-handbook)
 
 [🔝 Back to Top](#-techniques-at-a-glance)
 
@@ -212,4 +213,3 @@ This handbook is a working reference. Use it to:
 
 With these techniques, you can confidently build Custom GPTs that are useful, safe, and aligned with your goals. 🚀
 
-- 📘 [Prompt Engineering Patterns Handbook](https://github.com/trinchetto/prompt-engineering-patterns-handbook)
