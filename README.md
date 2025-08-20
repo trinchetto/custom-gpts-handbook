@@ -21,6 +21,7 @@ Here’s a quick reference table of the main techniques covered in this handbook
 | [🎭 Building a Persona Pattern](#-building-a-persona-pattern) | Unfocused or inconsistent persona | Define a role + task for consistent behavior |
 | [🗂️ Prompt Patterns](#-prompt-patterns) | Repetitive prompt writing | Use reusable templates and best practices |
 | [🧠 Chain-of-Thought Prompting](#-chain-of-thought-prompting) | Needs deeper reasoning | Encourage step-by-step reasoning before answering |
+| [🔁 ReAct Prompting](#-react-prompting) | Requires reasoning with real-world feedback | Alternate between thinking and acting to gather info |
 | [🧾 Format of the Persona Pattern](#-format-of-the-persona-pattern) | Ambiguous persona prompts | Standardize with “Act as X, Perform Y” format |
 | [🧪 Benchmarking & Testing](#-benchmarking--testing) | Inconsistent performance | Test with benchmark queries and evaluation rubrics |
 | [🔄 Continuous Learning](#-continuous-learning--staying-connected) | Outdated behavior | Update GPTs regularly with new data and practices |
@@ -152,6 +153,21 @@ For a full catalog of reusable prompt engineering patterns, check out the [Promp
 **Examples:**
 - "Think step-by-step: if a train leaves at 3 PM and travels 60 mph..."
 - "Plan a project timeline. Show your reasoning before the schedule."
+
+[🔝 Back to Top](#-techniques-at-a-glance)
+
+---
+
+## 🔁 ReAct Prompting
+**Problem it Solves:** Models can hallucinate or act without verifying facts from the environment.
+
+**How it Works:** The model alternates between "Thought" and "Action" steps, observing results before continuing.
+
+**When to Use:** Tasks requiring tool use or web queries where reasoning must incorporate new information.
+
+**Examples:**
+- "Search the web for the latest GDP figures. Thought: plan the query. Action: call web-search."
+- "Use calculator: Thought: set up equation. Action: invoke calculator to compute."
 
 [🔝 Back to Top](#-techniques-at-a-glance)
 
