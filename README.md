@@ -159,7 +159,7 @@ For a full catalog of reusable prompt engineering patterns, check out the [Promp
 ## 🧪 Benchmarking & Testing
 **Problem it Solves:** GPTs can perform inconsistently across different inputs.
 
-**How it Works:** Build a set of test queries, define rubrics (accuracy, tone, completeness), and evaluate performance systematically. The course provided a *Testing Protocol PDF* with detailed procedures — include that in your repository for reference.
+**How it Works:** Build a set of test queries, define rubrics (accuracy, tone, completeness), and evaluate performance systematically. The course provided a [Benchmark Design Consideration](Benchmark%20Design%20Consideration.pdf) PDF with detailed procedures — include that in your repository for reference.
 
 **When to Use:** Before deploying a GPT in production, especially in sensitive contexts.
 
@@ -172,7 +172,7 @@ For a full catalog of reusable prompt engineering patterns, check out the [Promp
 - Rate responses against a rubric: ✅ accuracy, ✅ tone, ✅ completeness, ✅ safety.  
 - Re-run tests whenever you change instructions or update RAG documents.  
 
-📘 See the included **Testing Protocol PDF** in this repository for a step-by-step framework.
+📘 See the included **[Benchmark Design Consideration](Benchmark%20Design%20Consideration.pdf)** in this repository for a step-by-step framework.
 
 **Sample Rubric Table:**
 | Criteria     | Description | Rating Scale (1-5) |
